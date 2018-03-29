@@ -1,6 +1,6 @@
 {
     "dependencies": {
-        "vhal.zerynth.armcmx_stm32f2": "r2.0.11"
+        "vhal.zerynth.armcmx_stm32f2": "r2.1.0"
     },
     "description": "Driver for Broadcom 44362 based chips",
     "exclude": [
@@ -20,6 +20,6 @@
     ],
     "repo": "official",
     "title": "Broadcom 43362 driver",
-    "version": "r2.0.11",
+    "version": "r2.1.0",
     "whatsnew": "Fixed wifi reliability errors"
 }
