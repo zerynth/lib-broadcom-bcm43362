@@ -1,0 +1,22 @@
+# configuration for bcm43362
+#
+#
+
+config:
+    # enable sockets
+    ZERYNTH_SOCKETS: true
+    # configure zerynth sockets to use LWIP from this module
+    ZERYNTH_EXTERNAL_LWIP: true
+    # enable precompiled binary linking
+    BCM43362__RVO: true
+    # enable generation of RVO
+    BCM43362_BUILD_RVO: null
+    # Set __RVO to null and _BUILD_RVO to true for generating rvo files
+    # Set __RVO to true and _BUILD_RVO to null for using rvo files
+options:
+    ZERYNTH_SSL:
+        help: >
+            If enabled, the support for TLS/SSL socket will be available in the driver
+
+
+
