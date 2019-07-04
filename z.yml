@@ -1,0 +1,15 @@
+---
+description: Driver for Broadcom 44362 based chips
+exclude:
+- csrc
+fullname: lib.broadcom.bcm43362
+info:
+    chip_manufacturer: Broadcom
+    chip_name: BCM43362
+    name: Wi-Fi Driver
+    type: Connectivity
+keywords:
+- wireless
+- wifi
+title: Broadcom 43362 driver
+...
