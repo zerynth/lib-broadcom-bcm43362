@@ -5,8 +5,10 @@
 config:
     # enable sockets
     ZERYNTH_SOCKETS: true
+    ZERYNTH_SOCKETS_PYNATIVE: true
+    ZERYNTH_SOCKETS_PYNATIVE_CUSTOM_RESOLVE: true
     # configure zerynth sockets to use LWIP from this module
-    ZERYNTH_EXTERNAL_LWIP: true
+    ZERYNTH_SOCKETS_EXTERNAL_TCP_STACK: true
     # enable precompiled binary linking
     BCM43362__RVO: true
     # enable generation of RVO
